@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "embedding_test"
+version = "0.1.0"
+description = "Project to look at embeddings"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+transformers = "^4.56.1"
+pydantic = "^2.11.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry-core.masonry.api"
